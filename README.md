@@ -26,7 +26,7 @@ In-Class Assignments
 
 
 Weekly Assingments
--WA1
+-WA1 https://oliviabransford.github.io/wa/wa1.html
 -WA2
 -WA3
 -WA4
