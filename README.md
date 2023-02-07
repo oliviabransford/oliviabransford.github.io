@@ -7,9 +7,9 @@ Projects
 
 
 In-Class Assignments
--ICA1
--ICA2
--ICA3
+-ICA1 file:///Users/oliviabransford/Downloads/obransford_ICA1%20--%20How%20to%20Search.pdf
+-ICA2 file:///Users/oliviabransford/Downloads/Copy%20of%20ICA2%20--%20Exploring%20Directory%20Structures%20(Week%202)%20(1).pdf
+-ICA3 
 -ICA4
 -ICA5
 -ICA6
@@ -27,7 +27,7 @@ In-Class Assignments
 
 Weekly Assingments
 -WA1 https://oliviabransford.github.io/wa/wa1.html
--WA2
+-WA2 https://github.com/oliviabransford/oliviabransford.github.io/blob/main/wa/wa2.html
 -WA3
 -WA4
 -WA5
