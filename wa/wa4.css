@@ -76,6 +76,11 @@ html {
 
 }
 
+.card1 {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+}
+
+
 
 
 
@@ -169,4 +174,10 @@ html {
   padding: 1em;
   color: #ccc;
 
+}
+
+
+.card2 {
+  font-family: 'Copperplate', 'Copperplate Gothic', sans-serif;
+  font-size: 1em;
 }
