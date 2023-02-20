@@ -1,0 +1,33 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+}
+
+
+#mybackground {
+min-width: 100%;
+min-height: 100%;
+}
+
+
+#olympicrings {
+position: absolute; 
+top: 50px;
+right: 50px;
+height: 3cm;
+background-color: lightskyblue; 
+
+}
+
+
+#timing {
+position: absolute; 
+background-color: darkred;
+bottom: -20px;
+right:40px;
+height: 3cm;
+
+
+}
