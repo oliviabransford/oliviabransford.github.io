@@ -1,0 +1,258 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+
+
+
+#ball1{
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball1 {
+    animation: slidein 3.1s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+
+#ball2{
+    background-color: pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball2 {
+    animation: slidein 3.2s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+#ball3{
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball3 {
+    animation: slidein 3.3s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+
+#ball4{
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball4 {
+    animation: slidein 3.4s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+#ball5{
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball5 {
+    animation: slidein 3.5s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+
+
+
+
+#ball6{
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball6 {
+    animation: slidein 3.6s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+
+
+#ball7{
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball7 {
+    animation: slidein 3.7s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+ 
+
+
+#ball8 {
+    background-color:pink;
+    width: 20px;
+    height:20px;
+    border-radius: 90%;
+    position: absolute;
+    top:15ch;
+}
+
+
+#ball8 {
+    animation: slidein 3.8s infinite alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 100%;
+    }
+}
+
+
+
+
+h2 {
+font-family:'Courier New', Courier, monospace;
+font-weight: lighter;
+font-size: small;
+height:10vh;
+}
+
+
+
+
+
+.topnav a:hover {
+    background-color:pink;
+    color: hotpink;
+}
+
+
+.topnav{
+    width:40vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    height:50vw;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height:20px;
+    font-style:normal;
+    font-weight: bolder;
+    font-variant-caps:small-caps;
+}
+
+
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
