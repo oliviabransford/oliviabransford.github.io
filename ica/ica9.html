@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button {
+            border: 8px solid darkolivegreen;
+            border-radius: 20px;
+            background-color: lightblue;
+            padding: 25px 50px;
+            width: 250px;
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 50px;
+        }
+
+
+
+        #button2 {
+            border: 8px solid yellow;
+            border-radius: 400px;
+            background-color: lightcoral;
+            padding: 30px 60px;
+            width: 250px;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+
+        p {
+            font-size: 50px;
+        }
+
+
+
+
+        #button3 {
+            border: 8px double black;
+            border-radius: 40px;
+            background-color: gold;
+            padding: 10px 40px;
+            width: 250px;
+            font-size: 50px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    
+
+        p {
+            font-size: 50px;
+        }
+
+    </style>
+
+    
+</head>
+<body>
+    <div id="button">
+        <p>click me!</p>
+    </div>
+
+
+    
+    <br>
+    <div class="form">
+        <label for="guessField">Enter a Number, I'll multiply it by 25: </label>
+        <input type="number" min="1" max="1000000000000000" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+
+
+        <div id="button2">
+        <p>click here to see what month it is</p>
+    </div>
+
+
+           <div id="button3">
+        <p>What's the best university?</p>
+    </div>
+
+
+    <script>
+        console.log("Hello, World");    
+        let btn = document.querySelector("#button");
+        // console.log("btn");
+
+        function changeBtn () {
+            //console.log("This worked!");
+            btn.textContent = "TEST";
+            btn.style.backgroundColor = "darkolivegreen";
+            btn.style.border =  "8px solid lightblue";
+            btn.style.color = "white"
+        }
+
+        btn.addEventListener('click',changeBtn);
+
+
+
+
+
+
+
+
+
+        let btn2 = document.querySelector("#button2");
+        // console.log("btn");
+
+        function changeBtn2 () {
+            //console.log("This worked!");
+            btn2.textContent = "MARCH";
+            btn2.style.backgroundColor = "yellow";
+            btn2.style.border =  "8px dotted lightcoral";
+            btn2.style.color = "lightcoral"
+        }
+
+        btn2.addEventListener('click',changeBtn2);
+
+
+
+
+
+        let btn3 = document.querySelector("#button3");
+        // console.log("btn");
+
+        function changeBtn3 () {
+            //console.log("This worked!");
+            btn3.textContent = "CU BOULDER";
+            btn3.style.backgroundColor = "black";
+            btn3.style.border =  "12px double gold";
+            btn3.style.color = "white"
+        }
+
+        btn3.addEventListener('click',changeBtn3);
+
+        
+
+
+        
+
+
+        function checkGuess () {
+ 
+            let value = userGuess.value * 25;
+            alert(value); 
+        }
+
+        let guessBtn = document.querySelector(".guessSubmit");
+        let userGuess = document.querySelector(".guessField");
+         // console.log(guessBtn)
+         guessBtn.addEventListener('click', checkGuess);
+
+
+
+
+        
+
+
+    </script>
+</body>
+</html>
