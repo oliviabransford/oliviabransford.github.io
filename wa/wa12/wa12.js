@@ -71,6 +71,8 @@ for (let i = 0; i < techStars.employees.length; i++) {
 console.log(JSON.stringify(totalSalary));
 
 console.log("Problem 4")
+
+
 // Problem 5
 function giveRaise(employee) {
     if (employee.raiseEligible) {
