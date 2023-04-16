@@ -72,7 +72,7 @@ class Ball {
 
   }
 
-  const testBall = new Ball(100, 100, 2, 2, "purple", 20);
+  const testBall = new Ball(100, 100, 2, 2, "purple", 50);
   //const testBall1 = new Ball(400, 300, 2, 2, "pink", 100);
   //const testBall2 = new Ball(800, 200, 2, 2, "aquamarine", 75);
 
@@ -85,8 +85,8 @@ testBall.draw();
 
 const balls = [];
 
-while (balls.length < 10) {
-  const size = random(30, 100);
+while (balls.length < 30) {
+  const size = random(50, 10);
   const ball = new Ball(
     // ball position always drawn at least one ball width
     // away from the edge of the canvas, to avoid drawing errors
