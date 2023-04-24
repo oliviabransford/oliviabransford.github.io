@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+
+
+.submit-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+  }
