@@ -1,0 +1,62 @@
+body {
+    background-color: plum;
+    font-family: Bookman, URW Bookman L, serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-family: Trattatello, fantasy;
+    text-align: center;
+    color: purple;
+    font-size: 50px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .lyrics {
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    width: 60%;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  
