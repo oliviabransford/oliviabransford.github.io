@@ -102,7 +102,7 @@ const songs = [
       messageEl.innerHTML = "Congratulations! You guessed it right! Certified Swiftie";
       messageEl.style.color = "#7FFF00"; // Green color for correct answer
     } else {
-      messageEl.innerHTML = "Sorry, wrong answer. Please try again. Not a certified Swifitie";
+      messageEl.innerHTML = "Sorry, wrong answer. Not a certified Swifitie. Please try again.";
       messageEl.style.color = "#FF0000"; // Red color for wrong answer
     }
   
